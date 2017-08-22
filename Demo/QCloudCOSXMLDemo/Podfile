@@ -2,6 +2,6 @@
 use_frameworks!
 
 target 'QCloudCOSXMLDemo' do
-pod 'QCloudCore',:tag=>'5.0.0',:git=>'https://github.com/EricCheungSCUT/qcloud-sdk-ios.git'
+pod 'QCloudCoreTestTest',:tag=>'5.0.1',:git=>'https://github.com/EricCheungSCUT/qcloud-sdk-ios.git'
 pod 'QCloudCOSXML',:git=>'https://github.com/EricCheungSCUT/qcloud-sdk-ios.git'
 end

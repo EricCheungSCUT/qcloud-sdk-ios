@@ -19,7 +19,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/EricCheungSCUT/qcloud-sdk-ios.git
     :tag: 5.0.0
   QCloudCOSXML:
-    :commit: 547422e78d505a33c3e54c42d9cb8eab893f017e
+    :commit: 807067c42823bbb33e0eaed07d2205fe3691e882
     :git: https://github.com/EricCheungSCUT/qcloud-sdk-ios.git
 
 SPEC CHECKSUMS:

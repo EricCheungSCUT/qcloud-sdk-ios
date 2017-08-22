@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "QCloudCOSXMLTest"
+  s.name             = "QCloudCOSXML"
   s.version          = "5.0.1"
   s.summary          = "QCloudCOSXML 腾讯云iOS-SDK组件"
 

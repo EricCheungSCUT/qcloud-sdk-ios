@@ -4,27 +4,28 @@ PODS:
     - QCloudCore (= 5.0.0)
 
 DEPENDENCIES:
-  - QCloudCore (from `https://github.com/EricCheungSCUT/qcloud-sdk-ios.git`)
+  - QCloudCore (from `https://github.com/EricCheungSCUT/qcloud-sdk-ios.git`, tag `5.0.0`)
   - QCloudCOSXML (from `https://github.com/EricCheungSCUT/qcloud-sdk-ios.git`)
 
 EXTERNAL SOURCES:
   QCloudCore:
     :git: https://github.com/EricCheungSCUT/qcloud-sdk-ios.git
+    :tag: 5.0.0
   QCloudCOSXML:
     :git: https://github.com/EricCheungSCUT/qcloud-sdk-ios.git
 
 CHECKOUT OPTIONS:
   QCloudCore:
-    :commit: 914f930e32803a7cfa0776537b97a74514bbc8d5
     :git: https://github.com/EricCheungSCUT/qcloud-sdk-ios.git
+    :tag: 5.0.0
   QCloudCOSXML:
-    :commit: 914f930e32803a7cfa0776537b97a74514bbc8d5
+    :commit: 547422e78d505a33c3e54c42d9cb8eab893f017e
     :git: https://github.com/EricCheungSCUT/qcloud-sdk-ios.git
 
 SPEC CHECKSUMS:
-  QCloudCore: 66dfc01707490c68703b28a93dac63502c71c6fc
+  QCloudCore: 985166f35a22bad2200d746046608d8b55a7b8a0
   QCloudCOSXML: 357e3f84d7de1fc797ea848ffef4d4a32f25acfe
 
-PODFILE CHECKSUM: f1a82c0f96406920ccd6c465d7ac039dbc2b601e
+PODFILE CHECKSUM: 45a5d45d9c0d245aa00e0aa49271a1dbfba29bcb
 
 COCOAPODS: 1.3.1

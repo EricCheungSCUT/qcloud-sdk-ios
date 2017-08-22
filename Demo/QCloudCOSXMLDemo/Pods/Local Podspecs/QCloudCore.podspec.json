@@ -15,7 +15,7 @@
   "platforms": {
     "ios": "6.0"
   },
-  "source_files": "QCloudCore/**/*",
+  "source_files": "QCloudCore/**",
   "frameworks": [
     "CoreMedia",
     "Accelerate"

@@ -1,0 +1,6 @@
+framework module Pods_QCloudCOSXMLDemo {
+  umbrella header "Pods-QCloudCOSXMLDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -102,12 +102,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/QCloudCOSXML/QCloudCOSXML.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/QCloudCore/QCloudCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QCloudCOSXMLTest/QCloudCOSXMLTest.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QCloudCoreTestTest/QCloudCoreTestTest.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/QCloudCOSXML/QCloudCOSXML.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/QCloudCore/QCloudCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QCloudCOSXMLTest/QCloudCOSXMLTest.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/QCloudCoreTestTest/QCloudCoreTestTest.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

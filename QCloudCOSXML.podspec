@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/EricCheungSCUT/qcloud-sdk-ios.git", :tag => s.version.to_s }
   s.ios.deployment_target = '6.0'
   s.source_files = 'COSXML/Classes/**/*'
-  s.dependency 'QCloudCoreTestTest','5.0.1'
+  s.dependency 'QCloudCore','5.0.3'
 end

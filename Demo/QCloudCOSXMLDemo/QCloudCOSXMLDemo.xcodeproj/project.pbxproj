@@ -294,13 +294,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QCloudCOSXMLDemo/Pods-QCloudCOSXMLDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/QCloudCOSXML/QCloudCOSXML.framework",
-				"${BUILT_PRODUCTS_DIR}/QCloudCore/QCloudCore.framework",
+				"${BUILT_PRODUCTS_DIR}/QCloudCOSXMLTest/QCloudCOSXMLTest.framework",
+				"${BUILT_PRODUCTS_DIR}/QCloudCoreTestTest/QCloudCoreTestTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QCloudCOSXML.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QCloudCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QCloudCOSXMLTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QCloudCoreTestTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
